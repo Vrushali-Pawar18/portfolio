@@ -1,0 +1,76 @@
+import { SkillCategory } from '../types/portfolio';
+
+export const SKILLS_DATA: SkillCategory[] = [
+  {
+    id: 'frontend',
+    title: 'Frontend Architecture',
+    description: 'Responsive interfaces, component architecture, client-side state, DOM virtualization, and rendering performance.',
+    skills: [
+      { name: 'React.js', iconName: 'Atom', isKey: true },
+      { name: 'Next.js', iconName: 'Globe', isKey: true },
+      { name: 'TypeScript', iconName: 'Code', isKey: true },
+      { name: 'JavaScript (ES6+)', iconName: 'FileCode', isKey: true },
+      { name: 'Redux Toolkit (RTK)', iconName: 'Layers', isKey: true },
+      { name: 'RTK Query', iconName: 'RefreshCw' },
+      { name: 'Tailwind CSS', iconName: 'Palette', isKey: true },
+      { name: 'Zustand', iconName: 'Box' },
+      { name: 'HTML5 & CSS3', iconName: 'Layout' },
+      { name: 'Framer Motion', iconName: 'Sparkles' },
+    ],
+  },
+  {
+    id: 'backend',
+    title: 'Backend Development',
+    description: 'API development, service orchestration, asynchronous workflows, and robust communication between application layers.',
+    skills: [
+      { name: 'Python', iconName: 'Terminal', isKey: true },
+      { name: 'FastAPI', iconName: 'Zap', isKey: true },
+      { name: 'Node.js', iconName: 'Server', isKey: true },
+      { name: 'NestJS', iconName: 'Cpu', isKey: true },
+      { name: 'REST APIs', iconName: 'Share2', isKey: true },
+      { name: 'GraphQL', iconName: 'GitBranch' },
+      { name: 'WebSockets', iconName: 'Radio' },
+      { name: 'Webhooks & Event Handlers', iconName: 'Repeat' },
+    ],
+  },
+  {
+    id: 'databases',
+    title: 'Databases & Asynchronous Processing',
+    description: 'Data modeling, relational persistence, in-memory caching, message queues, and non-blocking background workers.',
+    skills: [
+      { name: 'PostgreSQL', iconName: 'Database', isKey: true },
+      { name: 'Supabase', iconName: 'Shield', isKey: true },
+      { name: 'Redis', iconName: 'HardDrive', isKey: true },
+      { name: 'Celery Workers', iconName: 'Activity', isKey: true },
+      { name: 'SQL & Query Optimization', iconName: 'Search' },
+      { name: 'Data Modeling & Migrations', iconName: 'Layers' },
+    ],
+  },
+  {
+    id: 'ai',
+    title: 'AI & Intelligent Workflows',
+    description: 'Integrating LLMs into production pipelines, dynamic schema generation, structured outputs, and document processing.',
+    skills: [
+      { name: 'OpenAI APIs', iconName: 'Bot', isKey: true },
+      { name: 'Gemini APIs', iconName: 'Sparkles', isKey: true },
+      { name: 'Structured Outputs', iconName: 'FileText', isKey: true },
+      { name: 'Function Calling', iconName: 'Cpu', isKey: true },
+      { name: 'Prompt Engineering', iconName: 'Edit3' },
+      { name: 'Document Processing & AI Summaries', iconName: 'FileSearch' },
+      { name: 'Voice & Text Dynamic Interfaces', iconName: 'Mic' },
+    ],
+  },
+  {
+    id: 'cloud',
+    title: 'Cloud, DevOps & Integrations',
+    description: 'Cloud infrastructure, containerization, automated pipelines, and third-party SaaS integrations.',
+    skills: [
+      { name: 'Docker', iconName: 'Box', isKey: true },
+      { name: 'AWS (ECS, S3, CodeBuild)', iconName: 'Cloud', isKey: true },
+      { name: 'CI/CD Pipelines', iconName: 'GitCommit' },
+      { name: 'Git & GitHub', iconName: 'GitPullRequest', isKey: true },
+      { name: 'Third-Party Messaging APIs', iconName: 'MessageSquare' },
+      { name: 'Vercel Deployment', iconName: 'UploadCloud' },
+    ],
+  },
+];
